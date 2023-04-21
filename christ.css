@@ -10,8 +10,8 @@ linear-gradient(rgba(0,0,0,0.9),
 .contact-middle{
     background-attachment: fixed;
     background-image: 
-    linear-gradient(rgba(0,0,0,0.9),
-     rgba(0,0,0,0.9)), 
+    linear-gradient(rgba(0,0,0,0.6),
+     rgba(0,0,0,0.6)), 
      url(./images/wall1.jpeg);
      background-repeat: no-repeat;
      background-size: cover;  
@@ -259,6 +259,11 @@ background: linear-gradient(to top, rgb(21, 13, 107)1.1%, rgb(188, 16, 80) 130.5
                  .sturb{
                     padding: 65px;
                    }
+}
+@media only screen and (max-width: 576px) {
+    .sturb{
+        padding: 30px;
+       }
 }
 @media only screen and (max-width: 360px) {
 
