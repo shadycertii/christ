@@ -1,0 +1,276 @@
+.top1{
+background-attachment: fixed;
+background-image: 
+linear-gradient(rgba(0,0,0,0.9),
+ rgba(0,0,0,0.9)), 
+ url(./images/home4.gif);
+ background-repeat: no-repeat;
+ background-size: cover;
+} 
+.contact-middle{
+    background-attachment: fixed;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.9),
+     rgba(0,0,0,0.9)), 
+     url(./images/wall1.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;  
+}
+#contact-img{
+border-radius: 30px;
+}
+.con-icons a{
+font-size: 50px;
+text-decoration: none;
+}
+.otun .col-md-4{
+    border-right: 1px solid #fff;
+    border-radius: 10px;
+}
+.btn1{
+    background-color: rgb(248, 162, 3);
+}
+.olori{
+    background-color: transparent;
+}
+.btn1:hover{
+    transition: 0.5s;
+    background-color: rgb(151, 98, 0);
+}
+.navul li{
+    padding-left: 30px;
+}
+.navul li .hover:hover{
+    transition: ease-in-out 0.7s;
+   border-bottom: 2px solid #fff;
+}
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.group1 img{
+width: 300px;
+}
+.group2 img{
+    width: 250px;
+    }
+.found-card, .modal{
+    background: linear-gradient(rgb(21, 13, 107)1.1%, rgb(188, 16, 80) 130.5%);  
+    }
+    .found-card{
+        border-radius: 20px;;
+    }
+    .found-card-socials img{
+      width: 50px;
+    }
+    .abt-1st{
+		background-image: 
+		linear-gradient(rgba(0,0,0,0.9),
+		 rgba(0,0,0,0.9)), 
+		 url(./images/egbeda2.PNG);
+         background-size: cover;  
+         background-attachment: fixed; 
+    } 
+    .events, .founders{
+        background-color: #000;
+    }
+    .row-2{
+        justify-content: space-evenly;
+    }
+    .reign-img{
+        width: 100%;
+}
+.events .row .col-md-5 h2{
+    font-size: 40px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer ul{
+list-style: none;
+}
+footer li a:hover{
+	text-decoration: none;
+	color: orange;
+}
+footer li a{
+	font-weight: 600;
+}
+.icons{
+	text-align: right;
+	margin-top: 100px;
+}
+.icons i{
+	padding-left: 10px;
+	font-size: 40px;
+}
+body, .services, 
+.sliding, .general,
+ .schools, .contact-third{
+background: linear-gradient(rgb(21, 13, 107)1.1%, rgb(188, 16, 80) 130.5%);
+}
+.service-div .card{
+    border-top-right-radius: 100px;
+}
+.arrow-div i{
+background: linear-gradient(to top, rgb(21, 13, 107)1.1%, rgb(188, 16, 80) 130.5%);
+}
+.modal-header{
+    background: #000;
+    color: #fff;
+}
+.modal-body{
+    background: purple;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  .carousel-inner{
+    padding: 50px;
+}
+.dropdown{
+    box-shadow: 3px 3px 3px 3px #f1f1f1;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .dropdown-content{
+    display: none;
+    z-index: 1;
+    padding: 10px;
+  }
+  .dropdown:hover .dropdown-content{
+   display: block;
+   }
+   .dropdiv{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .part .card{
+    border: none;
+    padding: 50px;
+    box-shadow: 0px 7px 7px 7px rgb(212, 210, 210);
+  }
+  .contact-top .card{
+   display: flex;
+   flex-direction: row;
+  }
+  .contact-top .card .keji{
+    width: 70%;
+  }
+  .contact-top .card .ekon i{
+  font-size: 28px;
+  color: purple ;
+  }
+  #career-f-div i{
+    font-size: 27px;
+  }
+  .sturb{
+    padding: 100px;
+  }
+@media only screen and (max-width: 992px) {
+    .group1 img{
+        width: 200px;
+        }
+        .group2 img{
+            width: 200px;
+            }
+}
+
+@media (max-width: 768px) {
+   .olori nav ul li{
+       margin-top: 20px;
+    } 
+        .reign-img{
+            width: 100%;
+        }
+        .dino{
+          padding-top: 30px;
+        }
+        .dino2{
+            margin-top: 30px;
+          }
+        .events .row .col-md-5 h2{
+            font-size: 30px;
+        }
+    .carousel-item .row .col-md-6 img{
+        text-align: center;
+    }
+        .carousel-item .row .col-md-6 h3{
+    padding-top: 20px;
+    font-size: 22px;
+    }
+    .carousel-item .row .col-md-6 .p{
+        padding-bottom: 20px;
+        }
+    .group1 img, .group2 img{
+        width: 100%;
+    }
+        .carousel-inner{
+            padding: 0px;
+        }
+        .footer-row{
+            width: 100%;
+            text-align: center;
+            flex-direction: column;
+                   }
+           
+                   footer ul li{
+           margin-top: 20px;
+                   }
+                   footer ul li a{
+                       margin-top: 20px;
+                       font-size: 25px;
+                   }
+           
+                   .icons{
+                       text-align: center;
+                   }
+                   .part .card h1{
+                  font-size: 25px;
+                 }
+                   .part .card{
+                    padding: 20px;
+                 }
+                 .abt-top h1{
+             font-size: 23px;
+                 }
+                 .abt-top h3{
+                    font-size: 20px;
+                 }
+                 .sturb{
+                    padding: 65px;
+                   }
+}
+@media only screen and (max-width: 360px) {
+
+    .carousel-item .row .col-md-6 p{
+        font-size: 11px;
+        }
+
+           h1, h2{
+            font-size: 24px;
+            font-weight: 700;
+        }  
+        .sturb{
+         padding: 10px;
+        }
+}
