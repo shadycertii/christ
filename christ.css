@@ -266,9 +266,10 @@ background: linear-gradient(to top, rgb(21, 13, 107)1.1%, rgb(188, 16, 80) 130.5
        }
        .top1{
         background-image: 
-        linear-gradient(rgba(0,0,0,0.7),
-         rgba(0,0,0,0.7)), 
+        linear-gradient(rgba(0,0,0,0.8),
+         rgba(0,0,0,0.8)), 
          url(./images/home4.gif);
+        text-align: center;
         } 
 }
 @media only screen and (max-width: 360px) {
